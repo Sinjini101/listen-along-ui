@@ -8,6 +8,22 @@ function startSession() {
     console.log("Session ID:", sessionId);
   }, 1000);
 }
+// Called when the “Pause” button is clicked
+function pauseSession() {
+  console.log("⏸️ Session paused");
+  // …your API or dummy logic here…
+  alert("Session paused!");
+}
+
+// Called when the “End” button is clicked
+function endSession() {
+  console.log("🔴 Session ended");
+  // …your API or dummy logic here…
+  alert("Session ended!");
+}
+
+console.log("script.js loaded ✅");
+
 
 function generateRandomID() {
   const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
